@@ -15,9 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/label_text_size"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:layout_marginBottom="@dimen/menu_margins"
-        android:text="Select Patient Therapy"/>
+        android:text="@string/select_label"/>
 
     <RelativeLayout
         android:layout_width="match_parent"

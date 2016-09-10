@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">Ophthalmic_Concepts</string>
+
+    <string name="select_label">Select Patient Therapy</string>
     <string name="cool">COOL</string>
     <string name="warm">WARM</string>
     <string name="cool_warm">COOL &amp; WARM</string>
     <string name="online_support">ONLINE\nSUPPORT</string>
     <string name="reorder_packs">REORDER\nPACKS</string>
     <string name="manual">MANUAL</string>
+
+    <string name="massage">MASSAGE</string>
+    <string name="intensity">INTENSITY</string>
+    <string name="frequency">FREQUENCY</string>
+    <string name="time_countdown">TIME COUNTDOWN</string>
+    <string name="alarm">ALARM</string>
 </resources>

@@ -27,7 +27,7 @@
                 android:textColor="@color/textBlack"
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
-                android:text="Massage"/>
+                android:text="@string/massage"/>
 
             <Switch
                 android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentLeft="true"
-                android:text="Intensity"/>
+                android:text="@string/intensity"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -73,7 +73,7 @@
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentLeft="true"
-                android:text="Frequency"/>
+                android:text="@string/frequency"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,7 +96,7 @@
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentLeft="true"
-                android:text="Time Countdown"/>
+                android:text="@string/time_countdown"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -119,7 +119,7 @@
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentLeft="true"
-                android:text="Alarm"/>
+                android:text="@string/alarm"/>
 
             <Switch
                 android:layout_width="wrap_content"
