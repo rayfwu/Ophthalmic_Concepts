@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/control_card"
+    android:layout_width="400dp"
+    android:layout_height="250dp"
+    card_view:cardBackgroundColor="@color/borderOrange"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="0dp"
+    card_view:contentPadding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/coreGray"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:text="Massage"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="On"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:text="Intensity"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="8"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:text="Frequency"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="30 Hz"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:text="Time Countdown"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="13:30"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentLeft="true"
+                android:text="Alarm"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textBlack"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                android:text="On"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

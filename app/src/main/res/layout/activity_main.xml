@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="75dp"
+    tools:context="com.example.raymond.ophthalmic_concepts.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/od"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentstart="true"
+            android:id="@+id/include" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/OphthalmicConceptsLogo201_960x400"
+            android:scaleType="fitXY"
+            android:maxHeight="10dp"
+            android:maxWidth="10dp"
+            android:layout_toEndOf="@+id/include"
+            android:layout_toStartOf="@+id/include2"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/include" />
+
+        <include layout="@layout/os"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/include2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:padding="30dp">
+
+        <include layout="@layout/controls"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
