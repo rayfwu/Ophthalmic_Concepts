@@ -14,4 +14,7 @@
     <string name="frequency">FREQUENCY</string>
     <string name="time_countdown">TIME COUNTDOWN</string>
     <string name="alarm">ALARM</string>
+
+    <string name="target_temperature">TARGET TEMPERATURE</string>
+    <string name="actual_temperature">ACTUAL TEMPERATURE</string>
 </resources>
