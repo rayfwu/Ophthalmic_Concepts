@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Ophthalmic_Concepts</string>
+    <string name="cool">COOL</string>
+    <string name="warm">WARM</string>
+    <string name="cool_warm">COOL &amp; WARM</string>
+    <string name="online_support">ONLINE\nSUPPORT</string>
+    <string name="reorder_packs">REORDER\nPACKS</string>
+    <string name="manual">MANUAL</string>
 </resources>

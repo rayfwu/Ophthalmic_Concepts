@@ -35,10 +35,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="15dp"
+                android:layout_margin="@dimen/label_padding"
                 android:background="@color/coreGray"
                 android:gravity="center"
-                android:text="COOL"
+                android:text="@string/cool"
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:textColor="@color/textBlack" />
@@ -56,7 +56,16 @@
             android:layout_width="@dimen/button_width"
             android:layout_centerHorizontal="true" >
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/label_padding"
+                android:background="@color/coreWarm"
+                android:gravity="center"
+                android:text="@string/warm"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
 
         </android.support.v7.widget.CardView>
 
@@ -69,7 +78,16 @@
             android:layout_width="@dimen/button_width"
             android:layout_toRightOf="@+id/warm">
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/label_padding"
+                android:background="@color/coreHot"
+                android:gravity="center"
+                android:text="@string/cool_warm"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
 
         </android.support.v7.widget.CardView>
 
@@ -89,7 +107,16 @@
             android:layout_width="@dimen/button_width"
             android:layout_toLeftOf="@+id/reorder" >
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/label_padding"
+                android:background="@color/coreGray"
+                android:gravity="center"
+                android:text="@string/online_support"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
 
         </android.support.v7.widget.CardView>
 
@@ -104,7 +131,16 @@
             android:layout_width="@dimen/button_width"
             android:layout_centerHorizontal="true" >
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/label_padding"
+                android:background="@color/coreGray"
+                android:gravity="center"
+                android:text="@string/reorder_packs"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
 
         </android.support.v7.widget.CardView>
 
@@ -117,7 +153,16 @@
             android:layout_width="@dimen/button_width"
             android:layout_toRightOf="@+id/reorder" >
 
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/label_padding"
+                android:background="@color/coreGray"
+                android:gravity="center"
+                android:text="@string/manual"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
 
         </android.support.v7.widget.CardView>
 
