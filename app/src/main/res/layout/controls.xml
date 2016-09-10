@@ -29,14 +29,14 @@
                 android:textStyle="bold"
                 android:text="Massage"/>
 
-            <TextView
+            <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textBlack"
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentRight="true"
-                android:text="On"/>
+                android:text="ON "/>
         </RelativeLayout>
 
         <RelativeLayout
@@ -121,14 +121,14 @@
                 android:layout_alignParentLeft="true"
                 android:text="Alarm"/>
 
-            <TextView
+            <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/textBlack"
                 android:textSize="@dimen/label_text_size"
                 android:textStyle="bold"
                 android:layout_alignParentRight="true"
-                android:text="On"/>
+                android:text="ON "/>
         </RelativeLayout>
 
     </LinearLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,25 +23,55 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <include layout="@layout/placeholder"
+        <android.support.v7.widget.CardView
             android:id="@+id/cool"
+            card_view:cardBackgroundColor="@color/borderBlue"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_toLeftOf="@+id/warm"/>
+            android:layout_toLeftOf="@+id/warm">
 
-        <include layout="@layout/placeholder"
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@color/coreGray"
+                android:gravity="center"
+                android:text="COOL"
+                android:textSize="@dimen/label_text_size"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:id="@+id/warm"
             android:layout_marginLeft="@dimen/menu_margins"
             android:layout_marginRight="@dimen/menu_margins"
+            card_view:cardBackgroundColor="@color/borderRed"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true" >
 
-        <include layout="@layout/placeholder"
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:id="@+id/coolwarm"
+            card_view:cardBackgroundColor="@color/borderRed"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_toRightOf="@+id/warm"/>
+            android:layout_toRightOf="@+id/warm">
+
+
+
+        </android.support.v7.widget.CardView>
 
     </RelativeLayout>
 
@@ -49,25 +80,46 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/menu_margins">
 
-        <include layout="@layout/placeholder"
+        <android.support.v7.widget.CardView
             android:id="@+id/online"
+            card_view:cardBackgroundColor="@color/borderGray"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_toLeftOf="@+id/reorder"/>
+            android:layout_toLeftOf="@+id/reorder" >
 
-        <include layout="@layout/placeholder"
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:id="@+id/reorder"
+            card_view:cardBackgroundColor="@color/borderGray"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_marginLeft="@dimen/menu_margins"
             android:layout_marginRight="@dimen/menu_margins"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true" >
 
-        <include layout="@layout/placeholder"
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
             android:id="@+id/manual"
+            card_view:cardBackgroundColor="@color/borderGray"
+            card_view:cardCornerRadius="@dimen/card_corner"
+            card_view:cardElevation="0dp"
             android:layout_height="@dimen/button_height"
             android:layout_width="@dimen/button_width"
-            android:layout_toRightOf="@+id/reorder"/>
+            android:layout_toRightOf="@+id/reorder" >
+
+
+
+        </android.support.v7.widget.CardView>
 
     </RelativeLayout>
 

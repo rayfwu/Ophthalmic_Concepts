@@ -3,6 +3,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="menu_margins">32dp</dimen>
+    <dimen name="label_padding">15dp</dimen>
     <dimen name="label_text_size">30sp</dimen>
     <dimen name="button_width">250dp</dimen>
     <dimen name="button_height">100dp</dimen>

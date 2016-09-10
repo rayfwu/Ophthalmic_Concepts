@@ -7,5 +7,7 @@
     <color name="borderGray">#424242</color>
     <color name="borderOrange">#FF9800</color>
     <color name="textBlack">#000000</color>
+    <color name="borderBlue">#2196F3</color>
+    <color name="borderRed">#F44336</color>
 
 </resources>
