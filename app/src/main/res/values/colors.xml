@@ -5,7 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="coreGray">#BDBDBD</color>
     <color name="borderGray">#424242</color>
-    <color name="borderOrange">##FF5722</color>
+    <color name="borderOrange">#FF5722</color>
     <color name="coreWarm">#FFAB91</color>
     <color name="coreHot">#FF8A65</color>
     <color name="textBlack">#000000</color>
