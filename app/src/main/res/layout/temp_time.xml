@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/borderGray"/>
+        android:src="@drawable/OphthalmicConceptsLogo201_x260_mgd3k_1_crop"/>
 
     <TextView
+        android:id="@+id/therapy_mode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="@dimen/label_text_size"
@@ -43,7 +44,18 @@
                 android:layout_gravity="center"
                 card_view:cardElevation="0dp"
                 card_view:cardCornerRadius="@dimen/card_corner"
-                card_view:cardBackgroundColor="@color/borderGray">
+                card_view:cardBackgroundColor="@color/borderOrange">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/placeholder_temp"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreWarm"
+                    android:layout_margin="@dimen/label_padding"/>
 
             </android.support.v7.widget.CardView>
 
@@ -55,6 +67,17 @@
                 card_view:cardElevation="0dp"
                 card_view:cardCornerRadius="@dimen/card_corner"
                 card_view:cardBackgroundColor="@color/borderGray">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BACK"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreGray"
+                    android:layout_margin="@dimen/label_padding"/>
 
             </android.support.v7.widget.CardView>
 
@@ -81,7 +104,18 @@
                 android:layout_gravity="center"
                 card_view:cardElevation="0dp"
                 card_view:cardCornerRadius="@dimen/card_corner"
-                card_view:cardBackgroundColor="@color/borderGray">
+                card_view:cardBackgroundColor="@color/borderRed">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/placeholder_temp"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreHot"
+                    android:layout_margin="@dimen/label_padding"/>
 
             </android.support.v7.widget.CardView>
 
@@ -93,6 +127,17 @@
                 card_view:cardElevation="0dp"
                 card_view:cardCornerRadius="@dimen/card_corner"
                 card_view:cardBackgroundColor="@color/borderGray">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/reorder_packs"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreGray"
+                    android:layout_margin="@dimen/label_padding"/>
 
             </android.support.v7.widget.CardView>
 
@@ -120,6 +165,17 @@
                 card_view:cardCornerRadius="@dimen/card_corner"
                 card_view:cardBackgroundColor="@color/borderGray">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/placeholder_time"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreGray"
+                    android:layout_margin="@dimen/label_padding"/>
+
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -130,6 +186,17 @@
                 card_view:cardElevation="0dp"
                 card_view:cardCornerRadius="@dimen/card_corner"
                 card_view:cardBackgroundColor="@color/borderGray">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/manual"
+                    android:textSize="@dimen/label_text_size"
+                    android:textStyle="bold"
+                    android:textColor="@color/textBlack"
+                    android:gravity="center"
+                    android:background="@color/coreGray"
+                    android:layout_margin="@dimen/label_padding"/>
 
             </android.support.v7.widget.CardView>
 

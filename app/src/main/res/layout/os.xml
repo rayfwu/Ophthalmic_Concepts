@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="OS"
+            android:text="@string/os"
             android:textColor="@color/textBlack"
             android:textAlignment="center"
             android:textStyle="bold"
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:text="TEMP"
+                android:text="@string/temp"
                 android:textColor="@color/textBlack"
                 android:textStyle="bold"
                 android:textSize="@dimen/label_text_size" />
@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="104 ℉"
+                android:text="@string/placeholder_temp"
                 android:textColor="@color/textBlack"
                 android:textStyle="bold"
                 android:textSize="@dimen/label_text_size" />
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:text="TIME"
+                android:text="@string/time"
                 android:textColor="@color/textBlack"
                 android:textStyle="bold"
                 android:textSize="@dimen/label_text_size" />
@@ -72,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:text="14:00"
+                android:text="@string/placeholder_time"
                 android:textColor="@color/textBlack"
                 android:textStyle="bold"
                 android:textSize="@dimen/label_text_size"/>

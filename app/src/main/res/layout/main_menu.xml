@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     android:padding="@dimen/screen_padding">
 
-    <RelativeLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/borderGray"/>
+        android:src="@drawable/OphthalmicConceptsLogo201_x260_mgd3k_1_crop"/>
     
     <TextView
         android:layout_width="match_parent"
