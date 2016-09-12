@@ -9,12 +9,17 @@
     <string name="reorder_packs">REORDER\nPACKS</string>
     <string name="manual">MANUAL</string>
 
+    <string name="cool_therapy">COOL THERAPY</string>
+    <string name="warm_therapy">WARM THERAPY</string>
+    <string name="cool_and_warm_therapy">COOL &amp; WARM THERAPY</string>
+
+    <string name="target_temp">TARGET TEMPERATURE</string>
+    <string name="actual_temp">ACTUAL TEMPERATURE</string>
+    <string name="timer">TIMER</string>
+
     <string name="massage">MASSAGE</string>
     <string name="intensity">INTENSITY</string>
     <string name="frequency">FREQUENCY</string>
     <string name="time_countdown">TIME COUNTDOWN</string>
     <string name="alarm">ALARM</string>
-
-    <string name="target_temperature">TARGET TEMPERATURE</string>
-    <string name="actual_temperature">ACTUAL TEMPERATURE</string>
 </resources>
